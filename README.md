@@ -1,70 +1,73 @@
-:
+# 💪 FitnessFreak
 
-💪 FitnessFreak
+**FitnessFreak** is a modern fitness tracking web application that helps users monitor and manage their health habits including calories, workouts, water intake, sleep, and steps.
 
-FitnessFreak is a modern fitness tracking web application that helps users monitor and manage their health habits including calories, workouts, water intake, sleep, and steps. Built with Next.js, Tailwind CSS, and MongoDB, the app offers secure authentication and a beautiful, responsive UI.
+Built with **Next.js**, **Tailwind CSS**, and **MongoDB**, the app offers secure authentication and a beautiful, responsive UI.
 
-🚀 Tech Stack
 
-⚛️ Next.js – App framework for SSR and fast rendering
 
-🎨 Tailwind CSS – Utility-first CSS framework for styling
+## 🚀 Tech Stack
 
-🗄️ MongoDB Atlas – Cloud database for storing fitness data
+- ⚛️ **Next.js** – App framework for SSR and fast rendering  
+- 🎨 **Tailwind CSS** – Utility-first CSS framework for styling  
+- 🗄️ **MongoDB Atlas** – Cloud database for storing fitness data  
+- 🔐 **JWT Authentication** – Secure login and user sessions  
+- 📦 **React** – Frontend interactivity  
+- 📽️ **Workout GIF API** – Adds visual workout demonstrations  
 
-🔐 JWT Authentication – Secure login and user sessions
+---
 
-📦 React – Frontend interactivity
+## ✨ Features
 
-📽️ Workout GIF API – Adds visual workout demonstrations
+- 🔐 **Secure Authentication**  
+  JWT-based login system for protecting user data.
 
-✨ Features
+- 📊 **Personalized Dashboards**  
+  Track daily:
+  - 🥗 Calories  
+  - 🚶 Steps  
+  - 💧 Water Intake  
+  - 💤 Sleep  
+  - 🏋️ Workouts  
 
-🔐 Secure Authentication
-JWT-based login system for protecting user data.
+- 🧾 **Full CRUD Operations**  
+  Manage workout plans and progress logs using MongoDB.
 
-📊 Personalized Dashboards
-Track daily:
+- 📱 **Responsive Design**  
+  Mobile-first UI built with Tailwind CSS.
 
-🥗 Calories
+- 🏃 **Interactive Workout GIFs**  
+  Visual guides help users follow workout routines more effectively.
 
-🚶 Steps
+---
 
-💧 Water Intake
+## 🛠️ Getting Started
 
-💤 Sleep
-
-🏋️ Workouts
-
-🧾 Full CRUD Operations
-Manage workout plans and progress logs using MongoDB.
-
-📱 Responsive Design
-Mobile-first UI built with Tailwind CSS.
-
-🏃 Interactive Workout GIFs
-Visual guides help users follow workout routines more effectively.
-
-🛠️ Getting Started
-
-To get a local copy up and running, follow these steps:
-
-Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
-Node.js
+- [Node.js](https://nodejs.org/)
+- [MongoDB Atlas Account](https://www.mongodb.com/cloud/atlas)
+- [Git](https://git-scm.com/)
 
-MongoDB Atlas Account
+### Installation
 
-Git
-
-Installation
+```bash
 # Clone the repo
 git clone https://github.com/Neha09V/Fitnessfreak.git
 
-# Navigate to the project directory
+# Navigate into the project folder
 cd Fitnessfreak
+
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
 
 # Install dependencies
 npm install
@@ -72,39 +75,3 @@ npm install
 yarn
 # or
 pnpm install
-
-Run the Development Server
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-
-
-Visit http://localhost:3000
- in your browser.
-
-⚙️ Environment Variables
-
-Create a .env.local file in the root of your project and add:
-
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-
-🚀 Deployment
-
-The easiest way to deploy your Next.js app is with Vercel
-:
-
-Push your project to GitHub.
-
-Go to vercel.com/import
-.
-
-Connect your GitHub repository.
-
-Set environment variables.
-
-Click Deploy.
-
-📚 Next.js Deployment Docs
