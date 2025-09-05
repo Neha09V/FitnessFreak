@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+:
 
-## Getting Started
+💪 FitnessFreak
 
-First, run the development server:
+FitnessFreak is a modern fitness tracking web application that helps users monitor and manage their health habits including calories, workouts, water intake, sleep, and steps. Built with Next.js, Tailwind CSS, and MongoDB, the app offers secure authentication and a beautiful, responsive UI.
 
-```bash
+🚀 Tech Stack
+
+⚛️ Next.js – App framework for SSR and fast rendering
+
+🎨 Tailwind CSS – Utility-first CSS framework for styling
+
+🗄️ MongoDB Atlas – Cloud database for storing fitness data
+
+🔐 JWT Authentication – Secure login and user sessions
+
+📦 React – Frontend interactivity
+
+📽️ Workout GIF API – Adds visual workout demonstrations
+
+✨ Features
+
+🔐 Secure Authentication
+JWT-based login system for protecting user data.
+
+📊 Personalized Dashboards
+Track daily:
+
+🥗 Calories
+
+🚶 Steps
+
+💧 Water Intake
+
+💤 Sleep
+
+🏋️ Workouts
+
+🧾 Full CRUD Operations
+Manage workout plans and progress logs using MongoDB.
+
+📱 Responsive Design
+Mobile-first UI built with Tailwind CSS.
+
+🏃 Interactive Workout GIFs
+Visual guides help users follow workout routines more effectively.
+
+🛠️ Getting Started
+
+To get a local copy up and running, follow these steps:
+
+Prerequisites
+
+Make sure you have the following installed:
+
+Node.js
+
+MongoDB Atlas Account
+
+Git
+
+Installation
+# Clone the repo
+git clone https://github.com/Neha09V/Fitnessfreak.git
+
+# Navigate to the project directory
+cd Fitnessfreak
+
+# Install dependencies
+npm install
+# or
+yarn
+# or
+pnpm install
+
+Run the Development Server
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit http://localhost:3000
+ in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚙️ Environment Variables
 
-## Learn More
+Create a .env.local file in the root of your project and add:
 
-To learn more about Next.js, take a look at the following resources:
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The easiest way to deploy your Next.js app is with Vercel
+:
 
-## Deploy on Vercel
+Push your project to GitHub.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Go to vercel.com/import
+.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Connect your GitHub repository.
+
+Set environment variables.
+
+Click Deploy.
+
+📚 Next.js Deployment Docs
