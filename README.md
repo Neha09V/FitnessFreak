@@ -16,6 +16,13 @@ Built with **Next.js**, **Tailwind CSS**, and **MongoDB**, the app offers secure
 - 📽️ **Workout GIF API** – Adds visual workout demonstrations  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/43f8add0-d425-455c-9ef6-ddb2de881b75" />
+<img width="1920" height="1080" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/d4aaa1b5-8901-42b8-b407-cf980a790adf" />
+<img width="1920" height="1080" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/8e9b49ab-c67c-4ede-b69d-e457e70b1d01" />
+<img width="1920" height="1080" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/b7ef49c6-5aa0-481e-a7c4-dc35747f9434" />
+<img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/402cf029-0e9e-4f35-b494-9dcb33b548e7" />
+
+
 
 ## ✨ Features
 
