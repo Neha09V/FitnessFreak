@@ -1,0 +1,50 @@
+# # Global ignores
+# node_modules/
+# .env
+# .DS_Store
+
+# # Next.js build folders
+# .next/
+# out/
+# # Next.js build folders
+# fitnessfreak/.next/
+# fitnessfreak_admin/.next/
+# fitnessfreak_backend/.next/
+
+# # Logs
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+
+# # Editor folders
+# .vscode/
+# .idea/
+
+# # OS-generated files
+# Thumbs.db
+
+# # Sub-project folders
+# fitnessfreak/node_modules/
+# fitnessfreak/.next/
+# fitnessfreak_admin/node_modules/
+# fitnessfreak_admin/.next/
+# fitnessfreak_backend/node_modules/
+# /fitnessfreak/
+
+# # Env
+# .env
+# .env.local
+# node_modules/
+# .env
+# logs/
+
+# Dependencies
+node_modules/
+
+# Env
+.env
+
+# Logs
+logs/
+

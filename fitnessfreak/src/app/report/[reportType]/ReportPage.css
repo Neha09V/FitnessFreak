@@ -1,0 +1,79 @@
+.report-container {
+  padding: 40px;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+/* HERO */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.hero-number {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-title {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.hero-description {
+  max-width: 500px;
+  margin-top: 15px;
+  color: #555;
+  
+}
+
+.hero-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+/* CHART */
+.chart-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+/* INSIGHTS */
+.insight-section {
+  display: flex;
+  gap: 20px;
+}
+
+.insight-card {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* EDIT BUTTON */
+.edit-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}

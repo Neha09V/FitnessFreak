@@ -1,0 +1,133 @@
+.workout {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 12px;
+}
+
+/* MAIN LIST */
+.workout__exercises {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* CARD */
+.workout__exercise {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* reverse layout */
+.workout__exercise--reverse {
+  flex-direction: row-reverse;
+}
+
+/* IMAGE */
+.workout__exercise__image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* CONTENT */
+.workout__exercise__content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.workout__exercise--reverse .workout__exercise__content {
+  text-align: right;
+  align-items: flex-end;
+}
+
+/* TITLE */
+.workout__exercise__content h2 {
+  font-size: 42px;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #333;
+  color: transparent;
+  margin: 0;
+}
+
+/* TAG */
+.workout__exercise__content span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: var(--col1, #ff9800);
+  padding: 6px 16px;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+/* DESCRIPTION */
+.workout__exercise__content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--col1, #ff9800);
+  line-height: 1.5;
+}
+
+/* INDEX NUMBER */
+.workout__exercises h3 {
+  -webkit-text-stroke: 1px var(--col1, #ff9800);
+  color: transparent;
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: center;
+  width: 120px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 1px solid var(--col1, #ff9800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===================== */
+/* RESPONSIVE DESIGN     */
+/* ===================== */
+
+@media (max-width: 768px) {
+  .workout__exercise {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .workout__exercise--reverse {
+    flex-direction: column;
+  }
+
+  .workout__exercise__content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .workout__exercise--reverse .workout__exercise__content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .workout__exercise__content h2 {
+    font-size: 28px;
+  }
+
+  .workout__exercises h3 {
+    font-size: 4rem;
+    width: 90px;
+  }
+}
